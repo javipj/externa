@@ -9,7 +9,7 @@
 
 
 	
-		$.get( "http://daw.iesjoaquimmir.cat/", function( data ) {
+		$.get( "http://daw.iesjoaquimmir.cat/test1.php", function( data ) {
 		  $( "#capaAjax" ).html( data );
 		  alert( "Load was performed." );
 		});
